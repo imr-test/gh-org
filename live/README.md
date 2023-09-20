@@ -22,6 +22,13 @@ The goal is to be as explicit as possible so that by having a look into the
 [`terraform.tfvars`](../terraform.tfvars) file we can quickly see the mappings
 between all these entities
 
+## Module versioning
+
+For the sake of the demo and to make sure all the code is easily accessible, the
+modules used to create the infra are placed within the same repository as the
+root level module. Ideally we would like to split this into its own repositories
+and make sure these are versioned properly
+
 ## Requirements
 
 - [Terraform](https://www.terraform.io/)
@@ -51,6 +58,14 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 3. When you enter the `live` directory, you will need to allow
    [direnv](https://direnv.net/) to execute automatically within the directory
    by running `direnv allow`
+
+4. Running Terraform to apply changes to the code can be done by running from
+   the `live` folder:
+
+```
+terraform init
+terraform apply
+```
 
 ## How to generate docs
 
