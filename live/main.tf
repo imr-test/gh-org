@@ -5,6 +5,7 @@ module "repositories" {
   }
   name            = each.value.name
   description     = each.value.description
+  visibility      = each.value.visibility
   has_discussions = each.value.has_discussions
   has_issues      = each.value.has_issues
   has_wiki        = each.value.has_wiki
