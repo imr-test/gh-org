@@ -63,10 +63,6 @@ teams = [
       {
         name = "ivansamartino"
         role = "maintainer"
-      },
-      {
-        name = "imkrazer"
-        role = "member"
       }
     ]
   }
