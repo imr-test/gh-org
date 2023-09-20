@@ -27,9 +27,11 @@ repositories = [
     ]
   },
   {
-    name        = "voxsmart-service-sdk",
-    description = "Service SDK"
-    visibility  = "public"
+    name            = "voxsmart-service-sdk",
+    description     = "Service SDK"
+    visibility      = "public"
+    has_projects    = false
+    has_discussions = false
     teams = [
       {
         name       = "backend"
