@@ -5,6 +5,7 @@ GitHub Organization IAC
 # Requirements
 
 - [Terraform](https://www.terraform.io/)
+- [terraform-docs](https://terraform-docs.io/)
 - [Github CLI](https://github.com/cli/cli)
 - [direnv](https://direnv.net/docs/installation.html)
 
@@ -30,3 +31,8 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 3. When you enter the `live` directory, you will need to allow
    [direnv](https://direnv.net/) to execute automatically within the directory
    by running `direnv allow`
+
+# Generate documentation
+
+From the [live](./live) folder, run: `terraform-docs .`. That will update the
+[`README.md`](README.md) file at the root level of the respository

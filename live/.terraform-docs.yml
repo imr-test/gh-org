@@ -1,0 +1,25 @@
+formatter: markdown
+
+recursive:
+  enabled: true
+  path: '../modules'
+
+output:
+  file: README.md
+  mode: inject
+  template: |-
+    <!-- BEGIN_TF_DOCS -->
+    {{ .Content }}
+    <!-- END_TF_DOCS -->
+header-from: 'docs/header.md'
+sections:
+  show-all: false
+  show:
+    - header
+    - requirements
+    - providers
+    - resources
+    - modules
+    - inputs
+    - outputs
+    - footer
