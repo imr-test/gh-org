@@ -3,7 +3,7 @@
 
 GitHub Organization IAC
 
-# Project structure
+## Project structure
 
 This repository represents the reality of the infrastructure for the GitHub
 organization. It makes use of three modules that represent the entities required
