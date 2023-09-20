@@ -16,4 +16,9 @@ resource "github_team_repository" "this" {
   team_id    = data.github_team.this[each.value.name].id
   repository = github_repository.this.name
   permission = each.value.permission
+
+  # Seems like GitHub API modifies the `team_id` on every update
+  lifecycle {
+    ignore_changes = [team_id]
+  }
 }
