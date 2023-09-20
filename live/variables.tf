@@ -13,6 +13,7 @@ variable "repositories" {
       permission = string
     }))
   }))
+  default = []
 }
 
 variable "teams" {
@@ -34,4 +35,5 @@ variable "users" {
     name = string
     role = string
   }))
+  default = []
 }
