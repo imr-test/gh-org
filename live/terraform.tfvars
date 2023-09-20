@@ -49,18 +49,26 @@ teams = [
   {
     name        = "frontend"
     description = "frontend developers"
-    users = [{
-      name = "imkrazer"
-      role = "member"
-    }]
+    users = [
+      {
+        name = "imkrazer"
+        role = "member"
+      }
+    ]
   },
   {
     name        = "backend"
     description = "backend developers"
-    users = [{
-      name = "ivansamartino"
-      role = "maintainer"
-    }]
+    users = [
+      {
+        name = "ivansamartino"
+        role = "maintainer"
+      },
+      {
+        name = "imkrazer"
+        role = "member"
+      }
+    ]
   }
 ]
 
