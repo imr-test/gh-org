@@ -9,9 +9,9 @@ This repository represents the reality of the infrastructure for the GitHub
 organization. It makes use of three modules that represent the entities required
 for this setup:
 
-- [Repositories](../../modules/repository/README.md)
-- [Teams](../../modules/team/README.md)
-- [Users](../../modules/user/README.md)
+- [Repositories](../modules/repository/README.md)
+- [Teams](../modules/team/README.md)
+- [Users](../modules/user/README.md)
 
 The idea is to be able to declare at the root level of the repository a
 `terraform.vars` file that contains the mapping between the desired
