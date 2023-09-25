@@ -33,6 +33,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_allow_merge_commit"></a> [allow\_merge\_commit](#input\_allow\_merge\_commit) | Whether or not we allow merge commit | `bool` | `false` | no |
 | <a name="input_description"></a> [description](#input\_description) | Repository description | `string` | n/a | yes |
 | <a name="input_has_discussions"></a> [has\_discussions](#input\_has\_discussions) | Whether the repository has enabled the discussions feature | `bool` | `true` | no |
 | <a name="input_has_issues"></a> [has\_issues](#input\_has\_issues) | Whether the repository has enabled the issues feature | `bool` | `true` | no |

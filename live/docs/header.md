@@ -18,7 +18,7 @@ repositories, the teams associated to those repositories and finally the users
 that are invited to the GitHub organization
 
 The goal is to be as explicit as possible so that by having a look into the
-[`terraform.tfvars`](../terraform.tfvars) file we can quickly see the mappings
+[`terraform.tfvars`](terraform.tfvars) file we can quickly see the mappings
 between all these entities
 
 ## Module versioning

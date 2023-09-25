@@ -19,7 +19,7 @@ repositories, the teams associated to those repositories and finally the users
 that are invited to the GitHub organization
 
 The goal is to be as explicit as possible so that by having a look into the
-[`terraform.tfvars`](../terraform.tfvars) file we can quickly see the mappings
+[`terraform.tfvars`](terraform.tfvars) file we can quickly see the mappings
 between all these entities
 
 ## Module versioning
@@ -82,7 +82,7 @@ From the [live](./live) folder, run: `terraform-docs .`. That will update the
 
 | Name | Version |
 |------|---------|
-| <a name="provider_github"></a> [github](#provider\_github) | 5.37.0 |
+| <a name="provider_github"></a> [github](#provider\_github) | 5.38.0 |
 
 ## Modules
 
