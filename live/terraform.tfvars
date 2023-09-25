@@ -1,8 +1,25 @@
 repositories = [
   {
-    name        = "voxsmart-service-api",
-    description = "Service API"
+    name        = "voxsmart-interview",
+    description = "The repository for the interview"
     visibility  = "private"
+    teams = [
+      {
+        name       = "frontend"
+        permission = "pull"
+      },
+      {
+        name       = "backend"
+        permission = "admin"
+      }
+
+    ]
+  },
+  {
+    name               = "voxsmart-service-api",
+    description        = "Service API"
+    visibility         = "private"
+    allow_merge_commit = true
     teams = [
       {
         name       = "frontend"
@@ -63,6 +80,10 @@ teams = [
       {
         name = "ivansamartino"
         role = "maintainer"
+      },
+      {
+        name = "albermarin"
+        role = "member"
       }
     ]
   }
@@ -75,6 +96,10 @@ users = [
   },
   {
     name = "imkrazer"
+    role = "member"
+  },
+  {
+    name = "albermarin"
     role = "member"
   }
 ]

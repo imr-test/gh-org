@@ -56,3 +56,9 @@ variable "teams" {
   }
   default = []
 }
+
+variable "allow_merge_commit" {
+  description = "Whether or not we allow merge commit"
+  type        = bool
+  default     = false
+}
